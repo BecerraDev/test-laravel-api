@@ -14,7 +14,7 @@
         </p>
     </div>
 
-    <!-- 📋 Tabla -->
+    <!-- Tabla -->
    <div class="table-responsive rounded shadow-sm mt-4">
     <table class="table table-hover table-striped table-bordered align-middle mb-0">
 <thead class="table-secondary " style="background-color: #4CAF50; color: white; text-align: center;">
@@ -78,7 +78,7 @@
         </div>
     </div>
 
-    <!-- 🧾 MODAL de edición -->
+    <!-- MODAL de edición -->
     <div class="modal fade" id="editModal" tabindex="-1" aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered modal-md">
             <form id="userForm" class="modal-content shadow-lg rounded-4 border-0" style="font-family: 'Public Sans', sans-serif;">
