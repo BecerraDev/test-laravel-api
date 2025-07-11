@@ -28,7 +28,27 @@ Aplicación web desarrollada en Laravel que permite:
 
 ## Dependencias principales
 
-```json
+```
 "php": "^8.2",
 "laravel/framework": "^12.0",
 "laravel/tinker": "^2.10.1"
+```
+## Instalación
+
+Pasos para ejecutar el proyecto localmente:
+
+1. Clonar el repositorio
+
+```bash
+git clone https://github.com/BecerraDev/test-laravel-api.git
+cd test-laravel-api
+```
+2. Ejecutar
+```bash
+composer install
+```
+4. Ejecutar
+```bash
+php install serve
+```
+
