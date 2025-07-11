@@ -51,6 +51,10 @@ composer install
 ```bash
 php artisan serve
 ```
+4. Acceder
+```bash
+http://127.0.0.1:8000/
+```
 ## Solución Propuesta
 
 Este proyecto está enfocado en cumplir cada requerimiento mencionado en la prueba técnica. Consume datos desde una API externa de prueba y valida que al editar un usuario la respuesta sea un código 200.
