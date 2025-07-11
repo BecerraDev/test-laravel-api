@@ -53,9 +53,9 @@ php artisan serve
 ```
 ## Solución Propuesta
 
-Para facilitar la instalación, el proyecto incluye el archivo `.env` con la llave de aplicación (`APP_KEY`) ya generada, eliminando la necesidad de ejecutar comandos adicionales como `php artisan key:generate`. En cuanto al diseño, se aplicó un estilo visual limpio y moderno, utilizando Bootstrap como base y combinando componentes con una paleta en tonos celeste. La intención fue lograr una interfaz clara, funcional y agradable a la vista.
+Para que la instalación sea más rápida, el proyecto ya incluye el archivo `.env` con la llave de aplicación (`APP_KEY`) generada, así no hace falta ejecutar comandos extra como php artisan key:generate. En cuanto al diseño, usé Bootstrap para darle un estilo limpio y moderno, con tonos celestes para que la interfaz sea clara y agradable.
 
-Durante el desarrollo se consultaron diversas fuentes (documentación, foros, videos de YouTube) para resolver errores puntuales y reforzar el enfoque en buenas prácticas con Laravel. El objetivo principal fue presentar una solución funcional y comprensible, sin necesidad de base de datos local, que permitiera evaluar fácilmente la lógica de consumo y edición de datos vía API. 
+Durante el desarrollo, consulté diferentes fuentes como documentación, foros y videos de YouTube para resolver errores y aplicar buenas prácticas en Laravel. La idea principal fue crear una solución funcional y fácil de entender, sin usar base de datos local, para enfocarme en la lógica de consumo y edición vía API.
 
-El proyecto usa una estructura organizada con plantillas reutilizables para las vistas y un controlador dedicado para la conexión con la API externa. El código está comentado para facilitar su mantenimiento. Además, se mejoró la experiencia de usuario con una pantalla de carga y estilos limpios usando Bootstrap.
+El proyecto tiene una estructura ordenada con plantillas reutilizables para las vistas y un controlador específico para la conexión con la API externa. El código está comentado para facilitar su mantenimiento. También mejoré la experiencia de usuario con una pantalla de carga y estilos más limpios usando Bootstrap.
 
