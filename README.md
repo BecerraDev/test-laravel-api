@@ -1,5 +1,5 @@
 #  Proyecto Laravel - Prueba Técnica ( test-laravel-api )
-Este proyecto fue desarrollado como parte de una prueba técnica. Consiste en una interfaz de gestión de usuarios utilizando Laravel, con datos obtenidos desde una API interna de prueba proporcionada por la empresa.
+Este proyecto es una prueba técnica que muestra una interfaz de gestión de usuarios con Laravel. Los datos se obtienen desde una API externa de prueba. La tabla muestra los usuarios y permite editar su información a través de un modal que muestra datos adicionales. Al guardar los cambios, se muestra un mensaje de éxito y una pantalla de carga (overlay) para mejorar la experiencia de usuario.
 
 #
 
