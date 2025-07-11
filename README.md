@@ -53,9 +53,18 @@ php artisan serve
 ```
 ## Solución Propuesta
 
-Para que la instalación sea más rápida, el proyecto ya incluye el archivo `.env` con la llave de aplicación (`APP_KEY`) generada, así no hace falta ejecutar comandos extra como php artisan key:generate. En cuanto al diseño, usé Bootstrap para darle un estilo limpio y moderno, con tonos celestes para que la interfaz sea clara y agradable.
+Este proyecto está enfocado en cumplir cada requerimiento mencionado en la prueba técnica. Consume datos desde una API externa de prueba y valida que al editar un usuario la respuesta sea un código 200.
 
-Durante el desarrollo, consulté diferentes fuentes como documentación, foros y videos de YouTube para resolver errores y aplicar buenas prácticas en Laravel. La idea principal fue crear una solución funcional y fácil de entender, sin usar base de datos local, para enfocarme en la lógica de consumo y edición vía API.
+La tabla muestra los campos solicitados:
+- ID
+- Código
+- Monto (formateado con separadores de miles)
+- Fecha (formato dd-mm-yyyy)
+- Acciones (con botón "Editar")
 
-El proyecto tiene una estructura ordenada con plantillas reutilizables para las vistas y un controlador específico para la conexión con la API externa. El código está comentado para facilitar su mantenimiento. También mejoré la experiencia de usuario con una pantalla de carga y estilos más limpios usando Bootstrap.
+Al hacer clic en "Editar", se abre un modal con información adicional para modificar el usuario. La edición muestra un mensaje de éxito y una pantalla de carga (overlay) para mejorar la experiencia.
+
+El proyecto utiliza una estructura organizada con plantillas para las vistas y un controlador dedicado para la conexión con la API externa. El código está comentado para facilitar el mantenimiento y se aplicaron estilos limpios con Bootstrap para una interfaz clara y agradable.
+
+Además, para agilizar la instalación, el archivo .env incluye la llave de aplicación (APP_KEY) ya generada, evitando pasos extra como php artisan key:generate. No usa base de datos local, enfocándose en la lógica de consumo y edición vía API.
 
