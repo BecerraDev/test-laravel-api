@@ -49,6 +49,6 @@ composer install
 ```
 4. Ejecutar
 ```bash
-php install serve
+php artisan serve
 ```
 
