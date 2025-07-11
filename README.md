@@ -47,8 +47,15 @@ cd test-laravel-api
 ```bash
 composer install
 ```
-4. Ejecutar
+3. Ejecutar
 ```bash
 php artisan serve
 ```
+## Solución Propuesta
+
+Para facilitar la instalación, el proyecto incluye el archivo `.env` con la llave de aplicación (`APP_KEY`) ya generada, eliminando la necesidad de ejecutar comandos adicionales como `php artisan key:generate`. En cuanto al diseño, se aplicó un estilo visual limpio y moderno, utilizando Bootstrap como base y combinando componentes con una paleta en tonos celeste. La intención fue lograr una interfaz clara, funcional y agradable a la vista.
+
+Durante el desarrollo se consultaron diversas fuentes (documentación, foros, videos de YouTube) para resolver errores puntuales y reforzar el enfoque en buenas prácticas con Laravel. El objetivo principal fue presentar una solución funcional y comprensible, sin necesidad de base de datos local, que permitiera evaluar fácilmente la lógica de consumo y edición de datos vía API. 
+
+El proyecto usa una estructura organizada con plantillas reutilizables para las vistas y un controlador dedicado para la conexión con la API externa. El código está comentado para facilitar su mantenimiento. Además, se mejoró la experiencia de usuario con una pantalla de carga y estilos limpios usando Bootstrap.
 
